@@ -3,7 +3,8 @@ import { createContext, useState } from "react";
 
 export const context = createContext({
     menuBar: false,
-    menuHandler: () => {}
+    menuHandler: () => {},
+    menuFalseHandler: () => {}
 });
 
 
@@ -14,8 +15,14 @@ const Context = ({children}) => {
         setMenu(prevState => !prevState)
     }
 
+    const menuFalseHandler = () => {
+        setMenu(false)
+    }
+
     return (
-        <context.Provider value={{ menuBar: menu, menuHandler: menuBarHandler }}>
+        <context.Provider 
+           value={{ menuBar: menu, menuHandler: menuBarHandler,
+                menuFalseHandler: menuFalseHandler }}>
             {children}
         </context.Provider>
     )
