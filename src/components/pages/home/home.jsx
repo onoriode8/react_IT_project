@@ -6,10 +6,10 @@ import undraw_house_searching_image from "../../../assests/undraw_house_searchin
 const home = () => {
     return (
         <div>
-             <header>
+             {/* <header>
         <div>
             <ul id='ul'>
-                <li><a className='list' href='/' title="Buy">Buy</a></li>
+                <li><a className='list' href='/buy' title="Buy">Buy</a></li>
                 <li><a className='list' href='/sell' title="Sell">Sell</a></li>
                 <li><a className='list' href='/rent' title="Rent">Rent</a></li>
                 <li><a className='list' href='/home_loans' title="Home Loans">Home Loans</a></li>
@@ -20,7 +20,7 @@ const home = () => {
             <span>LOGO</span>
             <ul>
                 <li><a className='list_a'   href='/' title="Home">Home</a></li>
-                <li><a className='list_a' href='./buy' title="Buy">Buy</a></li>
+                <li><a className='list_a' href='/buy' title="Buy">Buy</a></li>
                 <li><a className='list_a' href='/sell' title="Sell">Sell</a></li>
                 <li><a className='list_a' href='/rent' title="Rent">Rent</a></li>
                 <li><a className='list_a' href='/home_loans' title="Home Loans">Home Loans</a></li>
@@ -28,7 +28,7 @@ const home = () => {
             </ul>
             <span className="menu">MENU</span>
         </nav>
-    </header>
+    </header> */}
     <section>
         <div className="section_image">
             <p className="home_cont">

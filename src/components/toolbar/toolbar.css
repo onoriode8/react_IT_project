@@ -1,0 +1,35 @@
+.aside_link {
+    list-style: none;
+    position: fixed;
+    background-color: #fff;
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    z-index: 9;
+}
+
+.aside_link a {
+    text-decoration: none;
+}
+
+.aside_link li {
+    padding: 20px;
+}
+
+.menu_logo {
+    width: 60px;
+    height: 40px;
+}
+
+.menu {
+    font-size: 2em;
+}
+
+@media(min-width: 600px) {
+    .aside_link {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
